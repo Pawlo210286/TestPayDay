@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/dimen_8dp"
+    android:paddingEnd="@dimen/dimen_8dp"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/vendor"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Scheilds, Reinger and Kautzer" />
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:fontFamily="sans-serif-light"
+            android:textSize="@dimen/sub_category_title_text_size"
+            tools:text="Automative" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/amount"
+            style="@style/AmountStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="-286.13" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="end"
+            android:textSize="@dimen/sub_category_title_text_size"
+            tools:text="02:17:21" />
+    </LinearLayout>
+</LinearLayout>

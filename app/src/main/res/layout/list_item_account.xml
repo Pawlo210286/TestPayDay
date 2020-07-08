@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:paddingBottom="24dp">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/valueStart"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <TextView
+        android:id="@+id/ibanLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/iban"
+        android:textAllCaps="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/typeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/type"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibanLabel" />
+
+    <TextView
+        android:id="@+id/createdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/created"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typeLabel" />
+
+    <TextView
+        android:id="@+id/activeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/active"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createdLabel" />
+
+    <TextView
+        android:id="@+id/ibanValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="true"
+        app:layout_constraintStart_toStartOf="@+id/valueStart"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/iban" />
+
+    <TextView
+        android:id="@+id/typeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/valueStart"
+        app:layout_constraintTop_toBottomOf="@+id/ibanLabel"
+        tools:text="@string/type" />
+
+    <TextView
+        android:id="@+id/createdValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/valueStart"
+        app:layout_constraintTop_toBottomOf="@+id/typeLabel"
+        tools:text="@string/created" />
+
+    <TextView
+        android:id="@+id/activeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="true"
+        app:layout_constraintStart_toStartOf="@+id/valueStart"
+        app:layout_constraintTop_toBottomOf="@+id/createdLabel"
+        tools:text="@string/active" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/n_main"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.testpayday.presentation.dashboard.DashboardFragment"
+        android:label="DashboardFragment">
+        <action
+            android:id="@+id/action_dashboardFragment_to_transactionsFragment"
+            app:destination="@id/transactionsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/transactionsFragment"
+        android:name="com.example.testpayday.presentation.transactions.TransactionsFragment"
+        android:label="TransactionsFragment" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.testpayday.presentation.login.LoginActivity"
+        android:label="LoginActivity" />
+</navigation>

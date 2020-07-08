@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TestPayDay</string>
+    <string name="go_to_transactions">go to transactions</string>
+    <string name="data_is_empty">Data is empty!</string>
+    <string name="transactions">Transactions</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="account">Account</string>
+    <string name="error_message">An error occurred while loading data</string>
+    <string name="error_invalid_data">Invalid data</string>
+    <string name="error_login">Error when login</string>
+    <string name="error_transaction_loading">Can\'t load transactions</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="hint_continue">Continue</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="gender">Gender</string>
+    <string name="dob">DOB</string>
+    <string name="phone">Phone</string>
+    <string name="iban">Iban:</string>
+    <string name="type">Type:</string>
+    <string name="created">Created:</string>
+    <string name="active">Active:</string>
+    <string name="logout">Logout</string>
+</resources>

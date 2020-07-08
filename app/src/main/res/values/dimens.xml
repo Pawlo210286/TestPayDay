@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_0dp">0dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_5dp">5dp</dimen>
+
+    <!-- Item Transaction -->
+    <dimen name="vendor_text_size">16sp</dimen>
+    <dimen name="amount_text_size">20sp</dimen>
+    <dimen name="month_title_text_size">26sp</dimen>
+    <dimen name="category_title_text_size">20sp</dimen>
+    <dimen name="sub_category_title_text_size">18sp</dimen>
+    <dimen name="empty_message_text_size">36sp</dimen>
+    <dimen name="error_load_text_size">24sp</dimen>
+    <dimen name="page_margin">24dp</dimen>
+</resources>
